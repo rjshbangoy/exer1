@@ -1,9 +1,15 @@
 function displaySum() {
-  let firstNum = Number(document.getElementById('firstNum').innerHTML)
-  let secondNum = Number(document.getElementById('secondNum').innerHTML)
+  let firstNum = Number(document.getElementById('num1').innerHTML)
+  let secondNum = Number(document.getElementById('num2').innerHTML)
 
   let total = firstNum + secondNum;
-  document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  document.getElementById("sum").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
-document.getElementById('sumButton').addEventListener("click", displaySum);
+function displayProduct() {
+  let firstNum = Number(document.getElementById('num1').innerHTML)
+  let secondNum = Number(document.getElementById('num2').innerHTML)
+
+  let total = firstNum + secondNum;
+  document.getElementById("product").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+}
