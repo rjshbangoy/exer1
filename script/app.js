@@ -15,5 +15,5 @@ function displayProduct() {
   let total = firstNum * secondNum;
   let product = document.getElementById("product");
   document.getElementById("res2").style.display = "block";
-  product.innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}`;
+  product.innerHTML = ` ${firstNum} x ${secondNum}, equals to ${total}`;
 }
