@@ -3,7 +3,9 @@ function displaySum() {
   let secondNum = Number(document.getElementById('num2').innerHTML)
 
   let total = firstNum + secondNum;
-  document.getElementById("sum").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  let sum = document.getElementById("sum");
+  sum.style.display = "block";
+  sum.innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
 function displayProduct() {
@@ -11,5 +13,7 @@ function displayProduct() {
   let secondNum = Number(document.getElementById('num2').innerHTML)
 
   let total = firstNum + secondNum;
-  document.getElementById("product").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  let product = document.getElementById("product");
+  product.style.display = "block";
+  product.innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
