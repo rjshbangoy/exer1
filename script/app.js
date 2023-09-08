@@ -1,6 +1,6 @@
 function displaySum() {
-  let firstNum = Number(document.getElementById('num1').innerHTML)
-  let secondNum = Number(document.getElementById('num2').innerHTML)
+  let firstNum = Number(document.getElementById('num1').value)
+  let secondNum = Number(document.getElementById('num2').value)
 
   let total = firstNum + secondNum;
   let sum = document.getElementById("sum");
@@ -9,8 +9,8 @@ function displaySum() {
 }
 
 function displayProduct() {
-  let firstNum = Number(document.getElementById('num1').innerHTML)
-  let secondNum = Number(document.getElementById('num2').innerHTML)
+  let firstNum = Number(document.getElementById('num1').value)
+  let secondNum = Number(document.getElementById('num2').value)
 
   let total = firstNum + secondNum;
   let product = document.getElementById("product");
