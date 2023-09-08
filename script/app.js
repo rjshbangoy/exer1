@@ -4,9 +4,8 @@ function displaySum() {
   
   let total = firstNum + secondNum;
   let sum = document.getElementById("sum");
+  document.getElementById("res1").style.display = "block";
   sum.innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}`;
-  let res1 = document.getElementById("res1");
-  res1.style.display = "block";
 }
 
 function displayProduct() {
@@ -15,7 +14,6 @@ function displayProduct() {
 
   let total = firstNum * secondNum;
   let product = document.getElementById("product");
+  document.getElementById("res2").style.display = "block";
   product.innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}`;
-  let res2 = document.getElementById("res2");
-  res2.style.display = "block";
 }
