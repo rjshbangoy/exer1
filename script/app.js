@@ -1,6 +1,6 @@
 function displaySum() {
-  let firstNum = Number(document.getElementById('num1').value)
-  let secondNum = Number(document.getElementById('num2').value)
+  let firstNum = Number(document.querySelector('num1').value)
+  let secondNum = Number(document.querySelector('num2').value)
 
   let total = firstNum + secondNum;
   let sum = document.getElementById("sum");
